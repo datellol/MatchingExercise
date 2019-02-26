@@ -5,7 +5,7 @@ import java.util.HashMap;
 
 public class DataLoader {
 
-    public class Person {
+    public static class Person {
 
         public String id;
         public String name;
@@ -17,7 +17,7 @@ public class DataLoader {
 
     public ArrayList<Person> getData() {
 
-        ArrayList people = new ArrayList();
+        ArrayList<Person> people = new ArrayList<Person>();
 
         Person peter = new Person();
         peter.id = "1";
